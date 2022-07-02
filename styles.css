@@ -1,0 +1,83 @@
+:root {
+  /*   ---   F O N T  F A M I L I E S   ---   */
+  --serif: 'Fraunces', serif;
+  --sans-serif: 'Montserrat', sans-serif;
+
+  /*   ---   F O N T  W E I G H T S   ---   */
+  --fs-500: 500;
+  --fs-700: 700;
+
+  /*   ---   C O L O R  P A L E T T E   ---   */
+  --clr-primary-cyan: hsl(158, 36%, 37%);
+  --clr-primary-cream: hsl(30, 38%, 92%);
+  --clr-neutral-drk-blue: hsl(212, 21%, 14%);
+  --clr-neutral-gray-blue: hsl(228, 12%, 48%);
+  --cly-neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  width: 50%;
+  margin: auto;
+  padding: 2em;
+}
+
+h1, h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 2em;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+}
+
+h2 {
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  border: 0;
+  width: 90%;
+  padding: 1em 0;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.product-image {
+  background-image: url(./images/image-product-mobile.jpg);
+}
+
+
+.attribution p,
+.attribution a,
+.attribution a:visited {
+  font-size: 12px;
+  text-decoration: none;
+  color: hsl(158, 36%, 37%);
+}
